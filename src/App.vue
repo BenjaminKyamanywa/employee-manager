@@ -12,6 +12,27 @@ export default {
   name: 'App',
   components: {
     EmployeeTable
+  },
+  data() {
+    return {
+      employees: [
+        {
+          id: 1,
+          name: 'John Snow',
+          email: 'john@snow.com',
+        },
+        {
+          id: 2,
+          name: 'Daenerys Targaryen',
+          email: 'dany@targaryen.com',
+        },
+        {
+          id: 3,
+          name: 'Robert Baratheon',
+          email: 'robert@baratheon.com',
+        },
+      ],
+    }
   }
 }
 </script>
