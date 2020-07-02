@@ -1,4 +1,5 @@
-# employee-manager
+# Employee-manager
+A simple application using Create, Read, Update, Delete while consuming an open REST API 
 
 ## Project setup
 ```
