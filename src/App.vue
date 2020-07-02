@@ -1,6 +1,6 @@
 <template>
   <div id="app" class="small-container">
-    <h1>Employees</h1>
+    <h1>Employee Manager</h1>
 
     <employee-form @add:employee="addEmployee"/>
     <employee-table 
@@ -35,8 +35,9 @@ export default {
     async getEmployees() {
       try { 
         const response = await fetch('https://jsonplaceholder.typicode.com/users')
-        const data = await response.json()
-        this.employees = data
+        let data = await response.json()
+        this.employees = data.filter(employee => (employee.id > 0 && employee.id < 4))
+        console.log(this.employees)
       } catch (error) { 
         console.error(error)
       }
