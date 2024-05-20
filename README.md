@@ -10,13 +10,13 @@ A web app used that allows an admin user to using Create, Read, Update, Delete e
 
 Here's what you can do with Facerecognition:
 
-- **View Employees**: You can add a book to read.
+- **View Employees**: You can view all employees with their information addded.
 
-- **Add employee**: You can add a book to read.
+- **Add employee**: You can add a new employee with their bio data.
 
-- **Edit employee information**: A user can add a book that they are currently reading. 
+- **Edit employee information**: You can edit an employee's information. 
 
-- **Delete employee**: You can also add a book you want to read at some point in the future. 
+- **Delete employee**: You can also delete and employee from the app. 
 
 ## 📚 Lessons
 
@@ -42,5 +42,5 @@ To run the project in your local environment, follow these steps:
 
 ## 🍿 Screenshot
 
-![Alt text](/public/employeeManager_screenshot.png)
+![Employee manager dashboard screenshot](/public/employeeManager_screenshot.png)
 
